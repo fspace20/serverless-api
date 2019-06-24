@@ -15,6 +15,11 @@ https://serverless.com/framework/docs/providers/aws/guide/quick-start/
 
 ## Write to SLS
 
+    sls plugin install -n serverless-wsgi
+    sls plugin install -n serverless-python-requirements
+
 ## Local Deploy
+
+    sls wsgi serve
 
 ## AWS Deploy
